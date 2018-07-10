@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Papierosy</title>
+		<style>
+			body{
+				text-align: center;
+				font-size: 150%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Kalkulator</h1>
+		<a href="papierosy.html">Papierosy</a>
+		<a href="tyton.html">Tytoń</a>
+		<a href="susz.html">Susz Tytoniowy</a>
+		<a href="spirytus.html">Spirytus</a>
+		<a href="wodka.html">Wodka</a>
+		<h2>Papierosy</h2>
+		<label for="pap_ilosc_szt">Podaj ilość w szt.: </label><input type="number" id="pap_ilosc_szt"><br>
+		
+		<label for="pap_ilosc_wpaczce">Ilość szt. w paczce: </label><input type="number" id="pap_ilosc_wpaczce" value="20"><br>
+		
+		<label for="pap_ilosc_paczek">Ilość paczek: </label><input type="number" id="pap_ilosc_paczek"><br>
+		
+		<label for="pap_ilosc_sztang">Ilość sztang: </label><input type="number" id="pap_ilosc_sztang"><br>
+		
+		<label><input type="radio" name="typ" id="typ_przemyt"> Przemyt </label>
+		<label><input type="radio" name="typ" id="typ_nabycie"> Nabycie </label>
+		<br>
+		<input type="button" value="Oblicz należności" id="btn_oblicz_papierosy">
+		<br>
+		<div id="wynik">
+			<p id="wynik_1"></p>
+			<p id="wynik_2"></p>
+		</div>	
+		<script src="papierosy.js"></script>		
+	</body>
+</html>
